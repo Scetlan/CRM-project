@@ -1,0 +1,97 @@
+@media (max-width: 920px) {
+    .container {
+        width: 768px;
+    }
+
+    .area {
+        width: 728px;
+    }
+
+    table {
+        width: 728px;
+    }
+
+    th,
+    td {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .span-color {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .id-client {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .name-client {
+        width: 185px;
+    }
+
+    .creation-date,
+    .head-edited {
+        width: 95px;
+    }
+
+    .head-contacts,
+    .contacts-blog {
+        padding-left: 8px;
+    }
+
+    .delete-edit,
+    .head-actions {
+        padding-left: 10px;
+    }
+
+    .id-client,
+    .head-identifier {
+        width: 105px;
+    }
+
+    .head-creation-date {
+        width: 95px;
+        padding: 0;
+        padding-left: 17px;
+    }
+
+    .creation-date,
+    .head-edited {
+        padding: 0;
+        padding-left: 17px;
+        padding-right: 5px;
+    }
+}
+
+@media (max-width: 754px) {
+
+    .container {
+        max-width: 500px;
+    }
+
+    .header-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 8px;
+    } 
+
+    .search-box {
+        display: none;
+    }
+
+    .logo {
+        height: 24px;
+        margin: auto;
+    }
+
+    .area {
+        width: 100vw;
+        overflow-y: scroll;
+    }
+
+}
